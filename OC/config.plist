@@ -209,8 +209,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwDImw==</data>
-				<key>AAPL,slot-name</key>
-				<string>Built in</string>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>igfxfw</key>
@@ -220,26 +218,12 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
 				<key>@0,name</key>
 				<string>ATY,Henbury</string>
-				<key>@1,name</key>
-				<string>ATY,Henbury</string>
-				<key>@2,name</key>
-				<string>ATY,Henbury</string>
-				<key>@3,name</key>
-				<string>ATY,Henbury</string>
-				<key>ATY,DeviceName</key>
-				<string>W6600X</string>
-				<key>ATY,EFIVersion</key>
-				<string>01.01.270</string>
-				<key>ATY,FamilyName</key>
-				<string>Radeon Pro</string>
-				<key>device_type</key>
-				<string>ATY,HenburyParent</string>
 				<key>model</key>
 				<string>AMD Radeon Pro W6600X</string>
-				<key>name</key>
-				<string>ATY,Henbury</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
