@@ -1,7 +1,7 @@
 # ROG B460I 
 ## 黑苹果efi文件(0C 1.0.1)
 ### 本机配置
-#### CPU:intel 10700
+#### CPU:intel 10900t
 #### 显卡:华擎RX6600xt单风扇
 #### 网卡:intel ax200
 #### 主板:ROG B460I
