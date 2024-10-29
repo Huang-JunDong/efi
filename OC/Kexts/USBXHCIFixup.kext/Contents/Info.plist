@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleGetInfoString</key>
-	<string>Version 1.1.0, Copyright 2022, HeiPG.cn</string>
+	<string>Version 1.2.0, Copyright 2022, HeiPG.cn</string>
 	<key>CFBundleIdentifier</key>
 	<string>cn.HeiPG.USBXHCI.Fixup</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -13,11 +13,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>1.2.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.0</string>
+	<string>1.2.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>AppleUSBXHCILPTH 9-series</key>
@@ -133,7 +133,24 @@
 			<key>IOPCIPauseCompatible</key>
 			<true/>
 			<key>IOPCIPrimaryMatch</key>
-			<string>0x7ae08086</string>
+			<string>0x7ae08086 0x51e08086</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>900</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>AppleUSBXHCISPT 700 RaptorLake</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
+			<key>IOClass</key>
+			<string>AppleUSBXHCISPT</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x7a608086</string>
 			<key>IOPCITunnelCompatible</key>
 			<true/>
 			<key>IOProbeScore</key>
